@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiment 4 </title>
+</head>
+<body>
+    <h1><center>Hotel Room Booking Form</center></h1>
+    <center>
+        <form action="./experiment_4.html">
+
+        Full Name:<input type="text" ><br><br>
+        Email: <input type="text" > <br> <br>
+        Phone: <input type="text" > <br> <br>
+
+        <label for="checkin">
+            Check-in-Date: <input type="date" id="checkin" name="checkin" min="2026-10-18">
+        </label><br> <br>
+
+        <label for="checkout">
+            Check-out-Date:<input type="date" id="checkout" name="checkout" min="2026-10-18">
+        </label> <br><br>
+
+         Room Type:<select name="roomtype" id="r1">
+            <option value="Single Room">Single Room</option>
+            <option value="Double Room"> Double Room</option>
+            <option value="Triple Seater"> Triple Seater </option>
+            <option value="Four Seater"> Four Seater</option>
+        </select><br><br>
+
+        Number of Guest: <input type="text" ><br><br>
+
+        Special Requests: <br>
+        <textarea name="special request" id="sr1" rows="4" cols="50" ></textarea> <br><br>
+       <button type="submit">Book Now</button>
+       <button type="submit">Reset Now</button>
+
+    </center>
+
+        </form>
+
+
+</body>
+</html>
